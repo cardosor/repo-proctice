@@ -1,0 +1,84 @@
+body{
+  background: olive;
+}
+h1{
+    font-family: cursive;
+  }
+h2{
+    font-family: cursive;
+  }
+h3{
+  font-family: cursive;
+}
+p{
+    color: black;
+    font-family: cursive;
+ }
+ span{
+   font-family: cursive;
+ }
+ #visitor_form{
+   font-size: 16px;
+   color: blue;
+   font-weight: bold;
+   font-family: cursive;
+ }
+
+ .content
+ {
+   box-sizing: border-box;
+   margin: 50px;
+   vertical-align: center;
+   -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+ }
+ .video{
+   display:inline-block;
+   min-width: : 50%;
+  margin-left: 10px;
+ }
+ .visitorform{
+   display:inline-block;
+   vertical-align:top;
+   min-width: : 50%;
+   margin-left: 10px;
+ }
+
+ .container
+ {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin: 50px;
+ }
+
+ .pic
+ {
+   -webkit-flex: 1;
+          flex: 1;
+          min-width: 50%;
+ }
+ .likes
+ {
+   -webkit-flex: 2;
+          flex: 2;
+          min-width: 50%;
+ }
+
+ .menu
+ {
+   position: static;
+ }
+ .welcome
+ {
+   float: right;
+   position: relative;
+   top: -50px;
+   left: -10px
+
+ }
